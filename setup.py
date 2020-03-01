@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'sudoko',         # How you named your package folder (MyLib)
-  packages = ['sudoko'],   # Chose the same as "name"
+  name = 'Sudoko',         # How you named your package folder (MyLib)
+  packages = ['Sudoko'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A Python module to solve the standard 9 by 9 Sudoku puzzle.',   # Give a short description about your library
