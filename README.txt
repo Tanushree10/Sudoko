@@ -6,11 +6,11 @@ longer to input the board, then it does to solve the problem.
 
 __How to use__
 
-import sudoko
+from Sudoko import Sudoko
 
-t=sudoko.create_board()
-sudoko.print_board(t)
-sudoko.solve(t)
+t=Sudoko.create_board()
+Sudoko.print_board(t)
+Sudoko.solve(t)
 
 To solve a different problem, pass in the board you want to solve through create_board() 
 function.  The board should be a list of 9 elements of length 9. Each entry 
