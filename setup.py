@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
-  name = 'Sudoko',         # How you named your package folder (MyLib)
-  packages = ['Sudoko'],   # Chose the same as "name"
+  name = 'sudoko',         # How you named your package folder (MyLib)
+  packages = ['sudoko'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'TYPE YOUR DESCRIPTION HERE',   # Give a short description about your library
+  description = 'A Python module to solve the standard 9 by 9 Sudoku puzzle.',   # Give a short description about your library
   author = 'Tanushree',                   # Type in your name
   author_email = 'tanu10tanu1999@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Tanushree10/Sudoko',   # Provide either the link to your github or to your website
